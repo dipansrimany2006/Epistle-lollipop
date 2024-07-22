@@ -1,0 +1,44 @@
+.profileContainer {
+    background-image: url(../assets//4.png);
+    display: flex;
+    width: 100vw;
+    height: 90vh;
+    font-family: "Inter", sans-serif;
+    color: #000;
+
+    .profileLeft {
+        width: 50vw;
+        display: flex;
+        flex-direction: column;
+
+        .profileDetailsUpper {
+            display: flex;
+            width: 100%;
+
+            .upperLeft {
+                display: flex;
+                flex-direction: column;
+
+                .name {
+                    font-size: 4rem;
+                }
+
+                .userId {
+                    font-size: 1.4rem;
+                }
+            }
+
+            .upperRightImg {
+                width: 300px;
+            }
+        }
+    }
+
+    .profileRight {
+        width: 50vw;
+
+        .rewards {
+            display: flex;
+        }
+    }
+}

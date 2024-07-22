@@ -1,0 +1,25 @@
+.smallContainer {
+    cursor: pointer;
+    font-size: 1.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 21vw;
+    height: 40vh;
+    background-color: #f1f1f1;
+    font-family: "Inter", sans-serif;
+  font-weight: 600;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba($color: #000000, $alpha: 0.1);
+    background-color: #ffffff20;
+    backdrop-filter: blur(100px);
+    -webkit-backdrop-filter: blur(100px);
+}
+
+.smallContainer:hover {
+    color: black;
+    cursor: pointer;
+    border: 0px;
+}

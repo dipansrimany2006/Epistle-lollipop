@@ -1,0 +1,49 @@
+.dashboard {
+    background-image: url(../assets/2.png);
+    background-size: cover;
+    
+    .fullpage {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 88vh;
+        font-family: "Josefin Sans", sans-serif;
+
+        .left {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 50vw;
+            height: 88vh;
+            row-gap: 4vh;
+
+            .lineChart {
+                display: grid;
+                place-items: center;
+                backdrop-filter: blur(10px);
+                canvas{
+                    color: white;
+                    background-color: #ffffff20;
+                    width: 40vw;
+                    height: 35vh;
+                }
+            }
+        }
+
+        .right {
+            width: 50vw;
+            height: 88vh;
+            display: flex;
+            flex-direction: column;
+            row-gap: 4vh;
+
+            .smallContainers {
+                width: 50vw;
+                display: flex;
+                align-items: center;
+                column-gap: 2.5vw;
+            }
+        }
+    }
+}

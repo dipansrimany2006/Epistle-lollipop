@@ -1,0 +1,23 @@
+.header{
+    font-family: "Inter", sans-serif;
+    width: 100vw;
+    height: 9vh;
+    background-color: #0003FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3vh;
+    .title{
+        margin-left: 3vw;
+        font-size: 2.8vw;
+        color: #EFEFEF;
+    }
+    .buttons{
+        margin-left: 50vw;
+        width: 35vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2vw;
+    }
+}
